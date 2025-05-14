@@ -12,7 +12,8 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(45deg, #0c0c1e, #1f1f3a);
-  padding: 20px;
+  padding: 100px;
+  overflow: hidden;
 }
 
 .container {
