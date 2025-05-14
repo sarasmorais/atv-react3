@@ -2,15 +2,13 @@ export function Form(){
     return(
         <div>
         <div className="input-box">
-            <label>Email</label>
-            <input placeholder="Digite o email associado à sua conta" type="email" />
-            <i className="bx bxs-user"></i>
+            <label for="email">Email</label>
+            <input id="email" placeholder="Digite o email associado à sua conta" type="email" />
         </div>
 
         <div className="input-box">
-            <label>Senha</label>
-            <input placeholder="Sua senha" type="password" />
-            <i className="bx bxs-lock-alt"></i>
+            <label for="password">Senha</label>
+            <input id="password" placeholder="Sua senha" type="password" />
         </div>
         </div>
 

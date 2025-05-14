@@ -90,6 +90,7 @@ body {
   align-items: center;
   margin-bottom: 24px;
   font-size: 14px;
+  gap: 100px;
 }
 
 .remember-forgot label {
